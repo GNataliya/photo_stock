@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}  
+
+body {
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+ 
+.content {
+    background-image:  url("../images/leaves.jpg");
+    height: 83%;
+  }
+
+
+footer {
+    bottom: 0;
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dee2e6;
+}
+
+a {
+    text-decoration: none; 
+}
+  
+.bi {
+    color: gray;
+    margin-right: 10px;
+    padding-bottom: 1%;
+}
+  
+.logo a{
+    color: gray;
+}
+
+
+h1 {
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 300%
+}
+
+form {
+    width: 35%;
+    margin: 3% auto;
+    padding: 2%;
+    border: 1px solid lightgrey;
+}
+
+label {
+    color: lightgrey;
+}
+
+.form-label {
+    font-size: 110%;
+}
+
+.label {
+    font-size: 70%;
+}
+
+.label a{
+    font-weight: bold;
+    color: white;
+    text-decoration-line: underline;
+}
+
+.btn {
+    width: 50%;
+    position: relative;
+    margin: auto 25%;    
+}

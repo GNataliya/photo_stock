@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /* position: absolute; */
+    height: 100%; 
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  header {
+    /* height: 15%; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  /* h1{
+    text-align: center;
+    color: white;
+    font-size: 300%
+  } */
+
+  .content {
+    /* background-image:  url("../images/leaves.jpg"); */
+    position: relative;
+    height: 83%;
+  }
+
+  .profile {
+    /* display: inline-block; */
+    position: relative;
+    background-image: url("../images/leaves.jpg");
+    height: 160px;
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px blue solid; */
+  }
+
+  .list {
+    position: absolute;
+    bottom: 10%;
+
+  }
+
+  /* .profile a {
+    position: absolute;
+    display: flex;
+    
+    justify-content: center;
+    bottom: 10%;
+    color: white;
+  } */
+
+  .albums {
+    /* display: inline-block; */
+    position: absolute;
+    /* height: 78%; */
+    height: 65%;
+    width: 20%;
+    /* border: 1px red solid; */
+    /* background-color: rgb(238, 236, 236); */
+    background-color: rgb(247, 244, 244);
+  }
+  
+  .nav-link{
+      color: white;
+  }
+
+  .nav-link:hover{
+    color: gray;
+}
+
+  .main-img {
+    position: absolute;
+    right: 0;
+    height:78%;
+    width: 80%;
+    /* border: 1px darkviolet solid; */
+    /* background-image: url("../images/leaves.jpg");
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  footer {
+    /* position: absolute; */
+    bottom: 0;
+    /* max-height: 10%; */
+    /* margin-top: 2px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dee2e6;
+    /* width: 100%; */
+  }
+  
+  /* .main-img {
+    background-image: url("../images/leaves.jpg");
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  .btns{
+    display: inline-block;
+    width: 100px;
+  }
+  
+  /* .btn-outline-success{
+    border-radius: 0.30rem;
+    background-color: gray;
+    border-color: gray;
+    margin-left: 15px;
+    width: 80px;
+  } */
+  
+  /* .btn-outline-success:hover{
+    background-color: darkgrey;
+    border-color: darkgrey;
+  } */
+  
+  .btn-success {
+    border-radius: 0.30rem;
+    border-color: rgb(5, 150, 5); 
+    background-color: rgb(5, 150, 5);
+    margin-right: 6px;
+    width: 80px;
+  }
+  
+  .btn-success:hover{
+    background-color: darkgreen;
+    border-color: darkgreen;
+  }
+  
+  .btn a {
+    color: white;
+  }
+  
+  a{
+    text-decoration: none; 
+  }
+  
+  .bi {
+    color: gray;
+    margin-right: 10px;
+    padding-bottom: 1%;
+  }
+  
+  .logo a{
+    color: gray;
+  }
+  
+
+  .img {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      background-color: lightgray;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      top: 15%;
+  }
+  
+  /* .row {
+    margin-top: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .col {
+    flex-basis: 30%;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 0 .5%;
+  }
+  
+  img {
+    width: 100%;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .short, .short img{
+    height: 300px;
+  }
+  
+  .long, .long img{
+    height: 600px;
+    margin-top: -75px;
+  } */
+
+
+  form {
+    width: 40%;
+    margin: 30px auto;
+    padding: 2%;
+    border: 1px solid lightgray;
+}
+
+
+.form-control {
+    font-size: smaller;
+    color:  rgb(247, 242, 242);
+    background-color: rgb(247, 247, 247)
+}
+
