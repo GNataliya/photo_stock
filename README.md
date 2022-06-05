@@ -1,4 +1,4 @@
-# photo_stock
+# authorisation
 
 ## Task
 
@@ -13,7 +13,9 @@ JavaScript, EJS, bootstrap, localStorage
 JavaScript, Node.js, Express.js, REST API, JWT, AJAX, MongoDB.
 
 
-
+## Description
+There was created main page of site with registration and login buttoms. After user`s registration or login we save his access key in Local Storage and when user moves to other pages we check his access key for opening page.  
+All functionality was realized using JavaScript.
 
 ## View
 
